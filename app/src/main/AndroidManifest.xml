@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jo_shinichi1.mbisasewa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".loginandregister.LoginAndRegisterHome" />
+        <activity android:name=".loginandregister.LoggedIn" />
+        <activity android:name=".loginandregister.RegisterIn" />
+        <activity android:name=".activity.HomeKategori" />
+        <activity android:name=".activity.Transportasi" />
+        <activity android:name=".TransportasiSuccessSearch"></activity>
+    </application>
+
+</manifest>

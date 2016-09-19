@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".loginandregister.LoginAndRegisterHome">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/background"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BISASEWA"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="SEWA BARANG DAN JASA ONLINE"
+        android:textColor="#000000"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="masuk"
+        android:id="@+id/btnLgoinHome"
+        android:textColor="#0288D1"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginTop="74dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/btnDafyatHome"
+        android:layout_alignEnd="@+id/btnDafyatHome" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="daftar"
+        android:id="@+id/btnDafyatHome"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundedbutton_daftar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/btnLgoinHome"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.jo_shinichi1.mbisasewa.loginandregister.RegisterIn">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/background"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="BISASEWA"
+            android:textSize="50dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="SEWA BARANG DAN JASA ONLINE"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint="Nama Depan"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint="Nama Belakang"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText2"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText3"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_alignEnd="@+id/editText2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint="Ulangi kata sandi"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText4"
+            android:layout_marginTop="27dp"
+            android:layout_below="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_alignEnd="@+id/editText3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:hint="Alamat Email"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText5"
+            android:layout_marginTop="26dp"
+            android:layout_below="@+id/editText4"
+            android:layout_alignStart="@+id/editText4"
+            android:layout_alignEnd="@+id/editText4" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mendaftar"
+            android:id="@+id/btnDafyatHome"
+
+            android:background="@drawable/roundedbutton_daftar"
+            android:layout_marginTop="38dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/editText5"
+            android:layout_alignStart="@+id/editText5"
+            android:layout_alignEnd="@+id/editText5" />
+    </RelativeLayout>
+
+</ScrollView>

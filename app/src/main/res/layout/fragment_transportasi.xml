@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.jo_shinichi1.mbisasewa.fragments.FragmentTransportasi">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerviewTrans"
+        android:layout_weight="1"
+        android:paddingBottom="40dp"
+        android:layout_marginTop="15dp">
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

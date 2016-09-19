@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.jo_shinichi1.mbisasewa.loginandregister.LoggedIn">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="BISASEWA"
+            android:textSize="50dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="SEWA BARANG DAN JASA ONLINE"
+            android:textColor="#000000"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint="Nama Pengguna"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignStart="@+id/textView" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/editText2"
+            android:layout_marginTop="230dp"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_alignStart="@+id/editText" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="masuk"
+            android:id="@+id/button"
+            android:textColor="#0288D1"
+            android:backgroundTint="#ffffff"
+            android:background="@drawable/roundedbutton"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginTop="260dp"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_alignStart="@+id/editText2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Atau"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="MASUK DENGAN FACEBOOK"
+            android:id="@+id/button2"
+            android:textColor="#0288D1"
+            android:backgroundTint="#ffffff"
+            android:background="@drawable/roundedbutton"
+            android:layout_marginTop="410dp"
+            android:layout_alignEnd="@+id/button"
+            android:layout_alignStart="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="MASUK DENGAN GMAIL"
+            android:id="@+id/button3"
+            android:textColor="#d50000"
+            android:backgroundTint="#ffffff"
+            android:background="@drawable/roundedbutton"
+            android:layout_marginTop="480dp"
+            android:layout_alignEnd="@+id/button2"
+            android:layout_alignStart="@+id/button2" />
+    </RelativeLayout>
+
+
+
+</ScrollView>
